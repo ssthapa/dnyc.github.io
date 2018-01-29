@@ -1,0 +1,19 @@
+/* Nav */
+a{
+	text-decoration: none;
+}
+
+/* Arrow Animation*/
+.arrow{
+	position: relative;
+	font-size: 40px;
+	text-align: center;
+	transform: rotate(90deg);
+	animation: bouncearrow 1s infinite;
+	color: #ffc728;
+}
+@keyframes bouncearrow{
+	0%{top: 0px;}
+	50%{top: 20px; color: black;}
+	100%{top: 0px;}
+}
